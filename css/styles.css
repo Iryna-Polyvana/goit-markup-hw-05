@@ -628,15 +628,15 @@ letter-spacing: 0.04em;
 .form-checkbox-wrapper {
     margin-bottom: 24px;
 }
-.form-policy-checkbox:checked+.form-policy-label.policy-own-checkbox {
+.form-policy-checkbox:checked+.form-policy-label .policy-own-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
-
 .form-policy-checkbox:focus+.form-policy-label .policy-own-checkbox {
-outline-color: #4d5ae5;
+    outline-color: #4d5ae5;
 }
+
 .send-message-btn {
     display: block;
     margin-left: auto;
