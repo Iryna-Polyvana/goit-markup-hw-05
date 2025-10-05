@@ -466,7 +466,7 @@ fill: #f4f4fd;
 }
 .subscribe-icon {
     fill: #ffffff;
-
+margin-left: 16px;
 }
 
 /* BACKDROP SECTION */
@@ -515,10 +515,10 @@ line-height: 0;
 fill: #2e2f42;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn:focus, .modal-close-btn:hover {
+.modal-close-btn:hover, .modal-close-btn:focus {
     background-color: #404bbf;
-    fill: #ffffff;
     border: none;
+    fill: #ffffff;
 }
 .modal-close-btn-icon {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -628,7 +628,7 @@ letter-spacing: 0.04em;
 .form-checkbox-wrapper {
     margin-bottom: 24px;
 }
-.form-policy-checkbox:checked+.form-policy-label .policy-own-checkbox {
+.form-policy-checkbox:checked+.form-policy-label.policy-own-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
